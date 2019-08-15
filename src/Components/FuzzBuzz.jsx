@@ -24,15 +24,10 @@ export default class FuzzBuss extends React.Component {
         return answer;
     }
     render() {
-
-        for (var i = 1; i <= 100; i++) {
-
-        }
-
         return (
             <>
                 <h1>This is the FizzBuzz</h1>
-                <div><p>Create the numbers 1 to 100. If the number is divided by 3, write Fizz, if it's divided by 5 write Buzz.</p></div>
+                <div><p>Create the numbers 1 to 100. If the number is divided by 3, write Fizz, if it\'s divided by 5 write Buzz.</p></div>
                 <table>{this.createTable()}</table>
             </>
         )

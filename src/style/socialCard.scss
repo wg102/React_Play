@@ -1,3 +1,26 @@
+
+
+.cardHolder{
+    background: red;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .card{
+        flex: 0 1 24%;
+        background: whitesmoke;
+        box-sizing: border-box;
+        margin: 1rem .25em;
+        padding: 2%;
+        border: 1px solid black;
+        border-radius: 5px;
+
+        img{
+            max-height: 250px;
+        }
+    }
+}
+
 .flex-container {
     padding: 0;
     margin: 0;

@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import FuzzBuzz from './Components/FuzzBuzz';
 import SocialCard from './Components/SocialCard';
 import Notfound from './Components/NotFound';
-import HomePage from "./Layout/Home";
+import HomePage from './Layout/Home';
 
 function App() {
   return (

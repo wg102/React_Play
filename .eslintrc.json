@@ -1,0 +1,31 @@
+{
+    "parser": "babel-eslint",
+    "extends": [
+        "airbnb",
+        "prettier",
+        "prettier/react"
+    ],
+    "plugins": [
+        "react",
+        "jsx-a11y",
+        "import",
+        "prettier"
+    ],
+    "rules": {
+        "max-len": 0,
+        "no-plusplus": 0,
+        "jsx-a11y/no-autofocus": 0,
+        "linebreak-style": 0,
+        "prettier/prettier": [
+            "error",
+            {
+                "singleQuote": true
+            }
+        ]
+    },
+    "globals": {
+        "fetch": false,
+        "document": false,
+        "window": false
+    }
+}

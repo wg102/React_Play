@@ -6,7 +6,7 @@ import SocialCard from './Components/SocialCard';
 import Notfound from './Components/NotFound';
 import Stack from './Components/Stack';
 import HomePage from './Layout/Home';
-import CalulatriceBasic from './Components/CalculatriceBasic';
+import CalulatriceBasic from './Components/Calculator/CalculatriceBasic';
 
 function App() {
   return (

@@ -1,0 +1,25 @@
+body{background: black;}
+.calc{
+    background: black;
+    color:white;
+    padding: 20px;
+    margin:5px;
+}
+.CalcTable{
+    background:#000000;
+    color:white;
+    border: 3px solid rgb(15, 53, 179);
+    tr{
+        min-width: 200px;;
+    }
+    td{
+        background:rgb(63, 57, 57);
+        min-width: 50px;
+        text-align: center;
+        
+    }
+    .total{
+        text-align: right!important;
+    }
+
+}

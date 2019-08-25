@@ -9,9 +9,9 @@ export default class Stack extends React.Component {
       last: null,
       size: 0
     };
-    this.IdiomaticReactList.bind(this);
+    // this.IdiomaticReactList.bind(this);
+    // This is where the issue is.
   }
-
 
   render() {
     const items = [{ name: 1 }, { name: 2 }];
